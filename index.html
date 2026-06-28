@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bloom Lab Studio es una agencia creativa que combina estrategia, identidad visual, contenido e interfaces digitales.">
+  <title>Bloom Lab Studio | Agencia creativa</title>
+  <link rel="icon" href="img/bloom-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Bloom Lab Studio inicio">
+        <img src="img/bloom-mark.svg" alt="" class="brand__mark">
+        <span>Bloom Lab Studio</span>
+      </a>
+      <input class="nav__toggle" type="checkbox" id="nav-toggle" aria-label="Abrir menú">
+      <label class="nav__button" for="nav-toggle">
+        <span></span>
+        <span></span>
+      </label>
+      <div class="nav__links">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  
+    <section class="hero section" id="inicio">
+      <div class="hero__content">
+        <p class="eyebrow">Branding, digital craft & growth</p>
+        <h1>Bloom Lab Studio</h1>
+        <p class="hero__lead">Cultivamos marcas con estrategia, diseño visual e interfaces digitales que se sienten vivas desde el primer click.</p>
+        <div class="hero__actions" aria-label="Acciones principales">
+          <a class="button button--primary" href="#contacto">Empezar proyecto</a>
+          <a class="button button--ghost" href="#trabajos">Ver trabajos</a>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-labelledby="canvas-3d-title">
+        <div class="canvas-label">
+          <span>Bloque P5.js + WEBGL</span>
+          <h2 id="canvas-3d-title">Proyectos en Tres Dimensiones</h2>
+        </div>
+        <div id="canvas-3d" class="p5-stage" aria-label="Escena 3D interactiva creada con P5.js"></div>
+        <div class="hero__badge">
+          <strong>48h</strong>
+          <span>primer mapa creativo</span>
+        </div>
+      </div>
+    </section>
+
+ 
+    <section class="intro section" aria-labelledby="intro-title">
+      <p class="section-kicker">Lo que hacemos</p>
+      <h2 id="intro-title">De una idea suelta a una presencia digital lista para crecer.</h2>
+      <p>Trabajamos con equipos que necesitan una marca memorable, una campaña con concepto o una experiencia web que convierta sin perder personalidad.</p>
+    </section>
+
+
+    <section class="about section" aria-labelledby="about-title">
+      <div class="about__intro">
+        <p class="section-kicker">Perfil creativo</p>
+        <h2 id="about-title">Sobre mí</h2>
+      </div>
+      <article class="about__card">
+        <figure class="about__photo">
+          <img src="img/foto perfil.jpeg" alt="Retrato de Sofía Juanco">
+        </figure>
+        <div class="about__content">
+          <p class="about__name">Sofía Juanco</p>
+          <p class="about__role">Diseñadora Multimedial</p>
+          <p class="about__description">Diseñadora multimedial enfocada en crear experiencias digitales que inspiren, comuniquen y generen conexión. Actualmente estudio Diseño Multimedial en Escuela Da Vinci y desarrollo proyectos que integran UX/UI, diseño web, producción audiovisual, branding, modelado 3D e inteligencia artificial. Me interesa transformar ideas en piezas visuales con identidad, propósito y una experiencia clara para el usuario.</p>
+          <ul class="about__chips" aria-label="Habilidades de Sofía Juanco">
+            <li>UX/UI Design</li>
+            <li>Diseño Web</li>
+            <li>Producción Audiovisual</li>
+            <li>Modelado 3D</li>
+            <li>Branding</li>
+            <li>P5.js</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+   
+    <section class="services section" id="servicios" aria-labelledby="services-title">
+      <div class="services__heading">
+        <p class="section-kicker">Servicios</p>
+        <h2 id="services-title">Todo lo que necesitás para crecer digitalmente</h2>
+        <p>Cinco disciplinas integradas para crear marcas, productos y experiencias digitales con una identidad consistente.</p>
+      </div>
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__top">
+            <span class="service-card__icon service-card__icon--mint" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 3 3 8l9 5 9-5-9-5Z"></path>
+                <path d="m3 12 9 5 9-5"></path>
+                <path d="m3 16 9 5 9-5"></path>
+              </svg>
+            </span>
+            <span class="service-card__number">01</span>
+          </div>
+          <h3>Diseño UX/UI</h3>
+          <p>Interfaces centradas en las personas, pensadas para combinar claridad, funcionalidad y una experiencia intuitiva que convierta visitantes en usuarios.</p>
+          <a href="#contacto" class="service-card__link">Saber más <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span class="service-card__icon service-card__icon--coral" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="m3 17 6-6 4 4 7-7"></path>
+                <path d="M14 8h6v6"></path>
+              </svg>
+            </span>
+            <span class="service-card__number">02</span>
+          </div>
+          <h3>Marketing Digital</h3>
+          <p>Estrategias de contenido, campañas para redes sociales, identidad digital y comunicación visual orientadas al crecimiento de marcas.</p>
+          <a href="#contacto" class="service-card__link">Saber más <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span class="service-card__icon service-card__icon--violet" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="M7 5v14"></path>
+                <path d="M17 5v14"></path>
+                <path d="M3 9h4"></path>
+                <path d="M17 9h4"></path>
+                <path d="M3 15h4"></path>
+                <path d="M17 15h4"></path>
+              </svg>
+            </span>
+            <span class="service-card__number">03</span>
+          </div>
+          <h3>Producción Audiovisual</h3>
+          <p>Videos publicitarios, motion graphics, edición profesional y contenido visual diseñado para generar impacto y contar historias.</p>
+          <a href="#contacto" class="service-card__link">Saber más <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span class="service-card__icon service-card__icon--gold" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 3v4"></path>
+                <path d="M12 17v4"></path>
+                <path d="M5 12H3"></path>
+                <path d="M21 12h-2"></path>
+                <path d="m6 6 1.5 1.5"></path>
+                <path d="m16.5 16.5 1.5 1.5"></path>
+                <path d="m18 6-1.5 1.5"></path>
+                <path d="m7.5 16.5-1.5 1.5"></path>
+                <path d="M12 8a4 4 0 0 0 4 4 4 4 0 0 0-4 4 4 4 0 0 0-4-4 4 4 0 0 0 4-4Z"></path>
+              </svg>
+            </span>
+            <span class="service-card__number">04</span>
+          </div>
+          <h3>Creación con IA</h3>
+          <p>Integración de herramientas de inteligencia artificial para acelerar procesos creativos, generar contenido y potenciar ideas sin perder identidad visual.</p>
+          <a href="#contacto" class="service-card__link">Saber más <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span class="service-card__icon service-card__icon--green" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"></path>
+                <path d="M12 12 4.4 7.7"></path>
+                <path d="M12 12v8.5"></path>
+                <path d="m12 12 7.6-4.3"></path>
+              </svg>
+            </span>
+            <span class="service-card__number">05</span>
+          </div>
+          <h3>Modelado 3D</h3>
+          <p>Modelado, texturizado y renders de productos, objetos y piezas visuales para branding, publicidad y experiencias digitales.</p>
+          <a href="#contacto" class="service-card__link">Saber más <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </section>
+
+  
+    <section class="process section" id="proceso" aria-labelledby="process-title">
+      <div class="section-heading">
+        <p class="section-kicker">Proceso</p>
+        <h2 id="process-title">Claridad primero, belleza después, impacto siempre.</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <span>Descubrir</span>
+          <h3>Brief vivo</h3>
+          <p>Investigamos audiencia, contexto y oportunidades para definir un norte creativo accionable.</p>
+        </article>
+        <article>
+          <span>Crear</span>
+          <h3>Sistema visual</h3>
+          <p>Exploramos rutas, construimos lenguaje gráfico y probamos el concepto en piezas reales.</p>
+        </article>
+        <article>
+          <span>Lanzar</span>
+          <h3>Entrega lista</h3>
+          <p>Documentamos, optimizamos y dejamos assets preparados para que el equipo pueda avanzar.</p>
+        </article>
+      </div>
+    </section>
+
+   
+    <section class="work section" id="trabajos" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="section-kicker">Trabajos</p>
+        <h2 id="work-title">Proyectos con raíz estratégica y forma propia.</h2>
+      </div>
+      <div class="work__grid">
+        <article class="project project--large project--gallery" tabindex="0">
+          <div class="project__media" data-labels="APP,UI DESIGN,MOCKUP,BRANDING">
+            <img src="img/projects/mypet/1.jpg" alt="Preview de MyPet" class="project__asset is-active">
+            <img src="img/projects/mypet/2.jpg" alt="Pantalla de MyPet" class="project__asset">
+            <img src="img/projects/mypet/3.jpg" alt="Mockup de MyPet" class="project__asset">
+            <img src="img/projects/mypet/4.jpg" alt="Branding de MyPet" class="project__asset">
+            <span class="project__media-label">APP</span>
+          </div>
+          <div class="project__content">
+            <span>APP DE CUIDADO ANIMAL</span>
+            <h3>MyPet</h3>
+            <p>Plataforma digital diseñada para centralizar información de mascotas, incluyendo perfiles, historial de salud, recordatorios y gestión de cuidados para tutores.</p>
+            <ul class="tech-list" aria-label="Tecnologías utilizadas en MyPet">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>UX/UI</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project project--pink project--gallery" tabindex="0">
+          <div class="project__media" data-labels="APP,UI DESIGN,WIREFRAME,MOCKUP">
+            <img src="img/projects/cycleup/1.jpg" alt="Preview de CycleUp" class="project__asset is-active">
+            <img src="img/projects/cycleup/2.jpg" alt="Pantalla de CycleUp" class="project__asset">
+            <img src="img/projects/cycleup/3.jpg" alt="Wireframe de CycleUp" class="project__asset">
+            <img src="img/projects/cycleup/4.jpg" alt="Mockup de CycleUp" class="project__asset">
+            <span class="project__media-label">APP</span>
+          </div>
+          <div class="project__content">
+            <span>SALUD Y BIENESTAR FEMENINO</span>
+            <h3>CycleUp</h3>
+            <p>Aplicación enfocada en el seguimiento del ciclo menstrual y la adaptación de rutinas de entrenamiento según cada fase, promoviendo una relación más consciente entre salud, actividad física y bienestar.</p>
+            <ul class="tech-list" aria-label="Tecnologías utilizadas en CycleUp">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>UX/UI</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project project--green project--video project--hbo" tabindex="0">
+          <div class="project__media">
+            <div class="project__poster">
+              <span>HBO</span>
+              <small>VIDEO PREVIEW</small>
+            </div>
+            <video class="project__video" muted loop playsinline preload="metadata">
+              <source src="img/projects/hbo/video.mp4" type="video/mp4">
+            </video>
+            <span class="project__media-label">VIDEO</span>
+          </div>
+          <div class="project__content">
+            <span>PRODUCCIÓN AUDIOVISUAL</span>
+            <h3>HBO Max Experience</h3>
+            <p>Video promocional desarrollado para HBO Max, utilizando edición, narrativa audiovisual y motion graphics para comunicar el universo de contenidos de la plataforma de manera dinámica e inmersiva.</p>
+            <ul class="tech-list" aria-label="Tecnologías utilizadas en HBO Max Experience">
+              <li>Premiere Pro</li>
+              <li>After Effects</li>
+              <li>Motion Graphics</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project project--gold project--gallery" tabindex="0">
+          <div class="project__media" data-labels="3D RENDER,WIREFRAME,CLOSE-UP">
+            <img src="img/projects/moschino/1.jpg" alt="Render principal de Moschino" class="project__asset is-active">
+            <img src="img/projects/moschino/2.jpg" alt="Vista alternativa de Moschino" class="project__asset">
+            <img src="img/projects/moschino/3.jpg" alt="Close-up de Moschino" class="project__asset">
+            <span class="project__media-label">3D RENDER</span>
+          </div>
+          <div class="project__content">
+            <span>MODELADO Y RENDER 3D</span>
+            <h3>Moschino</h3>
+            <p>Recreación tridimensional inspirada en el icónico perfume Teddy Bear de Moschino, desarrollada en Blender con foco en modelado, materiales, iluminación y presentación de producto.</p>
+            <ul class="tech-list" aria-label="Tecnologías utilizadas en Moschino">
+              <li>Blender</li>
+              <li>3D Modeling</li>
+              <li>Rendering</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project project--earth project--video" tabindex="0">
+          <div class="project__media">
+            <div class="project__poster">
+              <span>Greenpeace</span>
+              <small>CAMPAÑA</small>
+            </div>
+            <video class="project__video" muted loop playsinline preload="metadata">
+              <source src="img/projects/greenpeace/videogreen.mp4" type="video/mp4">
+            </video>
+            <span class="project__media-label">CAMPAÑA</span>
+          </div>
+          <div class="project__content">
+            <span>CAMPAÑA PUBLICITARIA</span>
+            <h3>Greenpeace</h3>
+            <p>Campaña audiovisual de concientización ambiental protagonizada por la cantante Aurora, combinando narrativa visual, edición y dirección creativa para transmitir un mensaje de impacto social y ecológico.</p>
+            <ul class="tech-list" aria-label="Tecnologías utilizadas en Greenpeace">
+              <li>Premiere Pro</li>
+              <li>After Effects</li>
+              <li>Storytelling</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+   
+    <section class="contact section" id="contacto" aria-labelledby="contact-title">
+      <div class="contact__intro">
+        <h2 id="contact-title">Hagamos florecer tu próxima idea.</h2>
+        <p>Contanos qué estás construyendo y te devolvemos una primera lectura creativa con posibles caminos de acción.</p>
+      </div>
+      <div class="contact__canvas">
+        <div class="contact__canvas-label">
+          <p>Hacé click para plantar una nueva idea</p>
+        </div>
+        <div id="canvas-network" class="p5-stage" aria-label="Jardín interactivo creado con P5.js"></div>
+      </div>
+      <form class="contact__form" action="#" method="post">
+        <p class="section-kicker">Contacto</p>
+        <label>
+          Nombre
+          <input type="text" name="name" placeholder="Tu nombre" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="hola@marca.com" required>
+        </label>
+        <label>
+          Proyecto
+          <textarea name="project" rows="4" placeholder="Contanos brevemente que necesitas"></textarea>
+        </label>
+        <button class="button button--primary" type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+ 
+  <footer class="footer">
+    <div class="footer__info">
+      <div class="footer__brand">
+        <p>Escuela Da Vinci</p>
+        <span>Diseño y Programación Web I</span>
+      </div>
+      <div>
+        <span>Carrera:</span>
+        <p>Diseño Multimedial</p>
+      </div>
+      <div>
+        <span>Alumna:</span>
+        <p>Sofía Juanco</p>
+      </div>
+      <div>
+        <span>Turno:</span>
+        <p>Noche</p>
+      </div>
+      <div>
+        <span>Comisión:</span>
+        <p>DMN3CV</p>
+      </div>
+      <div>
+        <span>Docente:</span>
+        <p>Omar Toyos</p>
+      </div>
+      <div>
+        <span>Mes y año:</span>
+        <p>Junio 2026</p>
+      </div>
+      <div>
+        <span>Tecnologías:</span>
+        <ul class="footer__tech">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>P5.js</li>
+          <li>WEBGL</li>
+          <li>Blender</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <a class="footer__studio" href="#inicio" aria-label="Bloom Lab Studio inicio">
+        <img src="img/bloom-mark.svg" alt="" class="footer__logo">
+        <span>Bloom Lab Studio</span>
+      </a>
+      <nav class="footer__legal" aria-label="Enlaces legales">
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Términos de Servicio</a>
+        <a href="#">Configuración de Cookies</a>
+      </nav>
+      <p>© 2026 Bloom Lab Studio — Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script>
+    window.onload = function () {
+      window.scrollTo(0, 0);
+    };
+  </script>
+  <script src="js/sketch3d.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
